@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawie.week03.view.activity.LoginActivity">
+
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入手机号" />
+
+    <EditText
+        android:id="@+id/ed_pwd"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_height="wrap_content"
+        android:hint="输入密码" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_marginLeft="50sp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:layout_marginRight="50sp"
+            android:layout_alignParentRight="true"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
